@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: django-redis-cache
+  annotations:
+    skystage.io/onboarded-via: spreadsheet
+    github.com/project-slug: clearcare/django-redis-cache
+    snyk.io/org-id: 8c3c0c27-43ab-4a69-8146-dfc01fb879d0
+    snyk.io/project-ids: 3f4eb4fc-9e2e-4662-be05-1c7bc29e3447
+    snyk.io/targets: clearcare/django-redis-cache
+    jira/project-key: WSPC
+  title: Django Redis Cache
+  description: Redis cache backend library for Django used by ClearCare
+spec:
+  type: library
+  lifecycle: ga
+  owner: developers
+  system: personal-care
